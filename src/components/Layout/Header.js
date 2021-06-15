@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 
 import mealsImage from "../../assets/meals.jpg";
 import classes from "./Header.Module.css";
 import HeaderCardButton from "./HeaderCartButton";
+import CartContext from "../../store/cart-context";
 
 const Header = (props) => {
+
   return (
     <React.Fragment>
       {console.log(classes,"ayeee")}  
